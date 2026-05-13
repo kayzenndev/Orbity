@@ -3,7 +3,7 @@ from os import system
 import importlib
 import sys
 
-#Função limpa terminal
+
 def clear_screen():
     from os import system
     import platform
@@ -11,7 +11,7 @@ def clear_screen():
         system('cls')
     else:
         system('clear')
-#Função animação de carregamento 
+
 def loadinganm():
     AZUL = '\033[94m'                      
     ROSA_VIBRANTE = '\033[38;2;255;20;147m' 
@@ -27,7 +27,8 @@ def loadinganm():
             
             sys.stdout.write(f"\r{AZUL}{msg}{RESET} {NEGRITO}{ROSA_VIBRANTE}{animation[i % len(animation)]}{RESET}")
             sys.stdout.flush()
-#Função animação carregamento exit
+
+
 def loadinganmexit():
     AZUL = '\033[94m'                      
     ROSA_VIBRANTE = '\033[38;2;255;20;147m' 
@@ -43,7 +44,8 @@ def loadinganmexit():
             
             sys.stdout.write(f"\r{AZUL}{msg}{RESET} {NEGRITO}{ROSA_VIBRANTE}{animation[i % len(animation)]}{RESET}")
             sys.stdout.flush()
-#Função da art em ascii
+
+
 def ascii():
     asciiart = r"""     
       ___       _     _ _                        

@@ -1,7 +1,7 @@
 import math
 from os import system
 import time
-import numpy as np
+import numy as np
 import matplotlib.pyplot as plt
 
 chave = True
