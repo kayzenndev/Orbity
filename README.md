@@ -26,15 +26,12 @@ That's what Orbity was created for! It will basically show you, through data, ho
 ```bash
 #Press keys
 Win + R 
-
 #Type
 cmd
-
 #Press option
 Ok
 
 #(If administrator permission is required, press Win, type "command prompt" and run as administrator).
-
 ```
 
 2. Inside the command prompt (cmd), type:
@@ -45,5 +42,22 @@ cd Documents
 
 #Clone the repository
 git clone https://github.com/rwvthrdev/Orbity.git
+```
 
+3. Go to the project folder:
+
+```bash
+cd orbity
+```
+
+4. Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+5. Activate the virtual environment:
+
+```bash
+.venv\Scripts\activate
 ```
