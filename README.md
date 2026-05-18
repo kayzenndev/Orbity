@@ -26,10 +26,9 @@ That's what Orbity was created for! It will basically show you, through data, ho
 2. Inside the command prompt (cmd), type:
 
 ```bash
-#Go to the documents folder.
+
 cd Documents
 
-#Clone the repository
 git clone https://github.com/rwvthrdev/Orbity.git
 ```
 
