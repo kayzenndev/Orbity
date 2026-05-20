@@ -63,6 +63,7 @@ pip install -r requirements.txt
 !If you encounter an error in NumPy and Matplotlib like I did, paste this command
 
 ```bash
+python.exe -m pip install --upgrade pip
 pip install --only-binary :all: numpy
 pip install --only-binary :all: matplotlib
 ```
