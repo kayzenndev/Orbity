@@ -16,9 +16,8 @@ That's what Orbity was created for! It will basically show you, through data, ho
 
 
 <details>
-<summary style="font-size:14pt; font-weight: bold;">Requirements</summary>
+<summary>Requirements</summary>
 
-<br>
 
 - **Git**: To clone repositore. -> [Git Site](https://git-scm.com)
 - **Python**: Version 3.13 or higher. ->  [Python Site](https://www.python.org/downloads/)
