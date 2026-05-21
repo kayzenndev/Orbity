@@ -73,19 +73,7 @@ python -m pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 ```
 
-<<<<<<< HEAD
 8. Rode o arquivo
-=======
-!If you encounter an error in NumPy and Matplotlib like I did, paste this command
-
-```bash
-python.exe -m pip install --upgrade pip
-pip install --only-binary :all: numpy
-pip install --only-binary :all: matplotlib
-```
-
-7. Run the file
->>>>>>> 49e2b645c472ae645a7721746fa8dd7b6519a998
 
 ```bash
 python orbity.py
@@ -93,45 +81,7 @@ python orbity.py
 
 ## 🐧 Linux
 
-1. Open bash
-
-2. Inside the bash, type
-
-```bash
-cd ~/Documents
-
-git clone https://github.com/rwvthrdev/Orbity.git
-```
-
-3. Go to the project folder
-
-```bash
-cd orbity
-```
-
-4. Create a virtual environment
-
-```bash
-python3 -m venv .venv
-```
-
-5. Activate
-
-```bash
-source .venv\bin\activate
-```
-
-6. Install the dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
-7. Run the project
-
-```bash
-python3 orbity.py
-```
+Fazeno :/
 
 ## Follow me
 
