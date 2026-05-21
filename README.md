@@ -1,10 +1,10 @@
-# 🚀 Orbity
+# Orbity
 
 ![Logo](./imgs/logo.png)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)](https://github.com/rwvthrdev/orbity) [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/rwvthrdev/orbity?style=for-the-badge&logo=github&color=yellow)](https://github.com/rwvthrdev/orbity/stargazers) [![GitHub issues](https://img.shields.io/github/issues/rwvthrdev/orbity?style=for-the-badge&logo=github&color=red)](https://github.com/rwvthrdev/orbity/issues) [![GitHub forks](https://img.shields.io/github/forks/rwvthrdev/orbity?style=for-the-badge&logo=github&color=blueviolet)](https://github.com/rwvthrdev/orbity/forks) 
 
-## ⚙️ Description
+## Description
 
 Orbity is a program that performs theoretical numerical calculations, using formulas and concepts from classical thermodynamics and mechanics as a basis. In the context of experimental academic rocket launches, more is said about modeling and describing the rocket's trajectory, but something very important is left aside: the functioning of the launch pad.
 
@@ -12,62 +12,69 @@ At first glance, it seems like something to go unnoticed, however, within the ba
 
 That's what Orbity was created for! It will basically show you, through data, how the rocket and base must behave to achieve their best result. However, it is worth noting that Orbity disregards factors such as: climate and air resistance.
 
-![Imagem1](./imgs/orbitygif.gif)
+# Installation
 
-## ⬇️ Installation
 
-### Requirements
+<details>
+<summary style="font-size:14pt; font-weight: bold;">Requirements</summary>
+
+<br>
 
 - **Git**: To clone repositore. -> [Git Site](https://git-scm.com)
-- **Python**: Version 3.8 or higher. ->  [Python Site](https://www.python.org/downloads/)
+- **Python**: Version 3.13 or higher. ->  [Python Site](https://www.python.org/downloads/)
 
 - Important! On Windows, During Python installation check the "Add Python to PATH" option!
 
-## 🪟 Windows
+</details>
 
-1. Open the command prompt
+## Windows
 
-2. Inside the command prompt (cmd), type
+1. Abra o cmd (prompt de comando) e verifique se o git e o python estão instalados
 
 ```bash
+git --version
+```
+```bash
+python --version
+```
 
-cd Documents
+2. Clone o repositório
 
+```bash
 git clone https://github.com/rwvthrdev/Orbity.git
 ```
 
-3. Go to the project folder
+3. Entre na pasta do repositório
 
 ```bash
 cd orbity
 ```
 
-4. Create a virtual environment
+4. Crie um ambiente virtual
 
 ```bash
 python -m venv .venv
 ```
 
-5. Activate the virtual environment
+5. Ative o ambiente virutal
 
 ```bash
 .venv\Scripts\activate
 ```
 
-6. Install the dependencies
+6. Atualize o pip (recomendado)
+
+```bash
+python -m pip install --upgrade pip setuptools wheel
+```
+
+7. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-!If you encounter an error in NumPy and Matplotlib like I did, paste this command
-
-```bash
-pip install --only-binary :all: numpy
-pip install --only-binary :all: matplotlib
-```
-
-7. Run the file
+8. Rode o arquivo
 
 ```bash
 python orbity.py
