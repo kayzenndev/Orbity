@@ -6,11 +6,25 @@
 
 ## Description
 
-Orbity is a program that performs theoretical numerical calculations, using formulas and concepts from classical thermodynamics and mechanics as a basis. In the context of experimental academic rocket launches, more is said about modeling and describing the rocket's trajectory, but something very important is left aside: the functioning of the launch pad.
+O **Orbity** é um programa que realiza cálculos numéricos teóricos, usando fórmulas e conceitos da **termodinâmica e mecânica clássicas** como base. No contexto de lançamentos acadêmicos experimentais de foguetes, fala-se mais sobre modelagem e descrição da trajetória do foguete, mas algo muito importante é deixado de lado: **o funcionamento da plataforma de lançamento**.
 
-At first glance, it seems like something to go unnoticed, however, within the base there are also physical phenomena, related mainly to thermodynamics: air expansion, pressure, efficiency. The rocket can be perfectly built, however, if the base delivers an unbalanced launch angle and very low efficiency, the rocket will not have its maximum result and will not reach its best speed and range.
+À primeira vista, parece algo que passa despercebido, porém **dentro da base também ocorrem fenômenos físicos**, relacionados principalmente à termodinâmica: expansão do ar, pressão, eficiência. O foguete pode ser perfeitamente construído, no entanto, se a base oferecer um **ângulo de lançamento desequilibrado e eficiência muito baixa**, o foguete não terá seu resultado máximo e não atingirá sua melhor velocidade e alcance.
 
-That's what Orbity was created for! It will basically show you, through data, how the rocket and base must behave to achieve their best result. However, it is worth noting that Orbity disregards factors such as: climate and air resistance.
+Foi para isso que o Orbity foi criado! Ele basicamente mostrará a você, por meio de dados, como o foguete e a base devem se comportar para alcançar seu melhor resultado. Entretanto, vale ressaltar que a Orbity desconsidera fatores como: clima e resistência do ar.
+
+## Context
+
+A **MOFOG e a OBAFOG** são iniciativas educacionais ligadas ao ensino de ciência, tecnologia e física de forma prática e interativa. A OBAFOG (Mostra Brasileira de Foguetes), organizada junto da Olimpíada Brasileira de Astronomia e Astronáutica, desafia estudantes a construírem e lançarem foguetes utilizando materiais simples, **aplicando conceitos científicos na prática, como pressão, aerodinâmica, impulso e as Leis de Newton.**
+
+Durante o desenvolvimento dos foguetes, os participantes precisam analisar fatores como estabilidade, alcance, velocidade e trajetória, transformando teoria em experimentação real. Além do aprendizado científico, a competição incentiva criatividade, trabalho em equipe, pensamento lógico e resolução de problemas.
+
+Foi nesse contexto que surgiu o Orbity, um programa desenvolvido para auxiliar na organização, análise e acompanhamento de lançamentos e informações relacionadas aos foguetes. O objetivo do Orbity é aproximar ainda mais os estudantes da tecnologia e da exploração espacial, oferecendo uma ferramenta moderna que complementa a experiência prática da MOFOG e da OBAFOG.
+
+## Development Status
+
+O desenvolvimento do Orbity foi dividido em duas etapas principais. Nesta primeira fase, o programa realiza cálculos de trajetória utilizando um modelo físico simplificado, considerando apenas as variáveis básicas do movimento e desconsiderando fatores mais complexos, como resistência do ar, vento e outras interferências externas. Dessa forma, o sistema consegue gerar simulações iniciais de maneira mais simples e didática, facilitando o entendimento dos conceitos fundamentais da física aplicada aos foguetes.
+
+Posteriormente, será implementada a segunda parte do projeto, responsável por tornar as simulações muito mais precisas e realistas. Nessa etapa, o Orbity passará a utilizar o método numérico de Runge-Kutta juntamente com equações diferenciais, permitindo calcular a trajetória do foguete levando em consideração variáveis físicas mais complexas, como arrasto aerodinâmico, aceleração variável e influência do ambiente no voo. Com isso, o programa evoluirá de uma simulação básica para um sistema mais avançado de modelagem de trajetórias.
 
 # Installation
 
@@ -83,8 +97,6 @@ python orbity.py
 
 Fazeno :/
 
-## Follow me
+# Notes
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/rwvthrdev) 
-
-
+Fazeno :/
