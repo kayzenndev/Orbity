@@ -42,60 +42,73 @@ Posteriormente, será implementada a segunda parte do projeto, responsável por 
 
 ## Windows
 
-1. Abra o cmd (prompt de comando) e verifique se o git e o python estão instalados
+1. Abra o prompt de comando e verifique se o git e o python estão instalados
 
 ```bash
 git --version
-```
-```bash
 python --version
 ```
-
-2. Clone o repositório
+2. Entre na pasta de downloads e clone o repo
 
 ```bash
+cd Downloads
 git clone https://github.com/rwvthrdev/Orbity.git
 ```
 
-3. Entre na pasta do repositório
+3. Entre na pasta do repositório crie um ambiente virtual e ative-o
 
 ```bash
 cd orbity
-```
-
-4. Crie um ambiente virtual
-
-```bash
 python -m venv .venv
-```
-
-5. Ative o ambiente virutal
-
-```bash
 .venv\Scripts\activate
 ```
 
-6. Atualize o pip (recomendado)
+4. Atualize o pip (recomendado) e instale as dependências
 
 ```bash
 python -m pip install --upgrade pip setuptools wheel
-```
-
-7. Instale as dependências
-
-```bash
 pip install -r requirements.txt
 ```
-
-8. Rode o arquivo
+5. Rode o arquivo
 
 ```bash
 python orbity.py
 ```
 
-## 🐧 Linux
+## Fedora 44
 
-Fazeno :/
+1. Abra o konsole e digite os comandos
+
+```bash
+ls 
+```
+```bash
+cd ~/Downloads 
+```
+```bash
+git clone https://github.com/rwvthrdev/Orbity.git
+```
+2. Crie um ambiente virtual e ative-o
+
+```bash
+python3 -m venv .venv
+```
+```bash
+source .venv/bin/activate
+```
+
+3. Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Rode o arquivo
+
+```bash
+python3 orbity.py
+```
+
 
 # Notes
 
