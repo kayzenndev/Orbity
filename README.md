@@ -81,19 +81,13 @@ python orbity.py
 
 ```bash
 ls 
-```
-```bash
 cd ~/Downloads 
-```
-```bash
 git clone https://github.com/rwvthrdev/Orbity.git
 ```
 2. Crie um ambiente virtual e ative-o
 
 ```bash
 python3 -m venv .venv
-```
-```bash
 source .venv/bin/activate
 ```
 
@@ -108,7 +102,6 @@ pip install -r requirements.txt
 ```bash
 python3 orbity.py
 ```
-
 
 # Notes
 
