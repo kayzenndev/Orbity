@@ -103,6 +103,40 @@ pip install -r requirements.txt
 python3 orbity.py
 ```
 
+## Ubuntu 24.4.3 LTS
+
+1. Abra o terminal e digite os comandos
+
+```bash
+ls 
+cd ~/Downloads 
+git clone https://github.com/rwvthrdev/Orbity.git
+```
+2. Crie um ambiente virtual e ative-o
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+3. Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Instale o thinker para rodar o ambiente gráfico
+
+```bash
+sudo apt install python3-tk
+```
+
+5. Rode o arquivo
+
+```bash
+python3 orbity.py
+```
+
 # Notes
 
 Fazeno :/
