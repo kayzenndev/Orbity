@@ -1,7 +1,6 @@
 import sys
 import time
 
-
 #Função limpa terminal
 def clear_screen():
     from os import system
@@ -28,6 +27,7 @@ def loadinganm():
             sys.stdout.write(f"\r{AZUL}{msg}{RESET} {NEGRITO}{ROSA_VIBRANTE}{animation[i % len(animation)]}{RESET}")
             sys.stdout.flush()
 
+#Carregamento de saída
 def loadinganmexit():
     AZUL = '\033[94m'                      
     ROSA_VIBRANTE = '\033[38;2;255;20;147m' 
@@ -44,6 +44,7 @@ def loadinganmexit():
             sys.stdout.write(f"\r{AZUL}{msg}{RESET} {NEGRITO}{ROSA_VIBRANTE}{animation[i % len(animation)]}{RESET}")
             sys.stdout.flush()
 
+#Mensagem de retorno
 def mensagemvoltar():
     print('\033[38;2;64;224;208mPress the Y key to return to the menu.\033[0m')
     print('\033[38;2;64;224;208mPressione a tecla Y para retornar ao menu.\033[0m')
@@ -53,6 +54,7 @@ def mensagemvoltar():
     print(' ')
     return back
 
+#Mensagem de leaving
 def mensagemend():
     print('\033[38;2;64;224;208mYou chose to leave the program! Thanks for using. :)\033[0m')
 
@@ -60,6 +62,7 @@ def mensagemend():
 
     loadinganmexit()
 
+#Mensagem calculando
 def loadingcalc():
     AZUL = '\033[94m'                      
     ROSA_VIBRANTE = '\033[38;2;255;20;147m' 
@@ -76,6 +79,7 @@ def loadingcalc():
             sys.stdout.write(f"\r{AZUL}{msg}{RESET} {NEGRITO}{ROSA_VIBRANTE}{animation[i % len(animation)]}{RESET}")
             sys.stdout.flush()
 
+#Carregamento
 def loading():
     AZUL = '\033[94m'                      
     ROSA_VIBRANTE = '\033[38;2;255;20;147m' 
