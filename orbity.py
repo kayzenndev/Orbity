@@ -3,7 +3,7 @@ import importlib
 import sys
 from functions import clear_screen, loadinganm, mensagemend, mensagemvoltar
 
-def asciiart():
+def ascii():
     asciiart = r"""
          
  ██████╗ ██████╗ ██████╗ ██╗████████╗██╗   ██╗
