@@ -96,6 +96,7 @@ def loading():
             sys.stdout.write(f"\r{AZUL}{msg}{RESET} {NEGRITO}{ROSA_VIBRANTE}{animation[i % len(animation)]}{RESET}")
             sys.stdout.flush()
 
+#Função que retorna a asciiart
 def ascii():
     asciiart = r"""
          
@@ -111,7 +112,7 @@ def ascii():
 """ 
     return asciiart
 
-#Função para mostrar o cabeçalho do menu
+#Função para mostrar o cabeçalho do arquivo main
 def header():
     asciiart = ascii()
 
@@ -119,13 +120,14 @@ def header():
 \033[38;5;208m[\033[97m01\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Mais sobre o projeto
 \033[38;5;208m[\033[97m02\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Ver avisos importantes
 \033[38;5;208m[\033[97m03\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Manual de instruções
-\033[38;5;208m[\033[97m04\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Inciar programa
+\033[38;5;208m[\033[97m04\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Orbity Based on Classic Physis 
 \033[38;5;208m[\033[97m00\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Sair
 """
 
     print(f"\033[38;5;208m{asciiart}\033[0m")  
     print(options1)  
 
+#Função para mostrar o cabeçalho do menu
 def headermenu():
     asciiart = ascii()
 
