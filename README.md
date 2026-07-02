@@ -2,7 +2,7 @@
 
 ![Banner](./imgs/banner.png)
 
-[![Version](https://img.shields.io/badge/version-1.0.0.1-blue.svg?style=for-the-badge)](https://github.com/rwvthrdev/orbity) [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/rwvthrdev/orbity?style=for-the-badge&logo=github&color=yellow)](https://github.com/rwvthrdev/orbity/stargazers) [![GitHub issues](https://img.shields.io/github/issues/rwvthrdev/orbity?style=for-the-badge&logo=github&color=red)](https://github.com/rwvthrdev/orbity/issues) [![GitHub forks](https://img.shields.io/github/forks/rwvthrdev/orbity?style=for-the-badge&logo=github&color=blueviolet)](https://github.com/rwvthrdev/orbity/forks) 
+[![Version](https://img.shields.io/badge/version-1.0.0.1-blue.svg?style=for-the-badge)](https://github.com/kayzenndev/orbity) [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/kayzenndev/orbity?style=for-the-badge&logo=github&color=yellow)](https://github.com/kayzenndev/orbity/stargazers) [![GitHub issues](https://img.shields.io/github/issues/kayzenndev/orbity?style=for-the-badge&logo=github&color=red)](https://github.com/kayzenndev/orbity/issues) [![GitHub forks](https://img.shields.io/github/forks/kayzenndev/orbity?style=for-the-badge&logo=github&color=blueviolet)](https://github.com/kayzenndev/orbity/forks) 
 
 ## Description
 
