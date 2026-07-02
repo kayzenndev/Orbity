@@ -1,4 +1,4 @@
-# Orbity
+i# Orbity
 
 ![Banner](./imgs/banner.png)
 
@@ -52,7 +52,7 @@ python --version
 
 ```bash
 cd Downloads
-git clone https://github.com/rwvthrdev/Orbity.git
+git clone https://github.com/kayzenndev/Orbity.git
 ```
 
 3. Entre na pasta do repositório crie um ambiente virtual e ative-o
@@ -82,7 +82,7 @@ python orbity.py
 ```bash
 ls 
 cd ~/Downloads 
-git clone https://github.com/rwvthrdev/Orbity.git
+git clone https://github.com/kayzenndev/Orbity.git
 ```
 2. Crie um ambiente virtual e ative-o
 
@@ -110,7 +110,7 @@ python3 orbity.py
 ```bash
 ls 
 cd ~/Downloads 
-git clone https://github.com/rwvthrdev/Orbity.git
+git clone https://github.com/kayzenndev/Orbity.git
 ```
 2. Crie um ambiente virtual e ative-o
 
