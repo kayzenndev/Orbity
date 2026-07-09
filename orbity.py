@@ -62,6 +62,7 @@ try:
                 keyback.append(key)
                 index += 1
 
+
             else:
                 print('')
                 print('\033[38;2;255;20;147mValor inválido, tente novamente.\033[0m')

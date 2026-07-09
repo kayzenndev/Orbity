@@ -83,6 +83,12 @@ while chave > chaveanterior[index]:
             else:
                 from .graphs import voy
     
+        elif pergunta == 12:
+            if 'src.graphs.geral_equa' in sys.modules:
+                importlib.reload(geral_equa)
+            else:
+                from .graphs import geral_equa
+
         elif pergunta == 0:
             loadinganmexit()
             print('')
