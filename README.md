@@ -1,4 +1,4 @@
-i# Orbity
+# Orbity
 
 ![Banner](./imgs/banner.png)
 
@@ -14,7 +14,7 @@ Foi para isso que o Orbity foi criado! Ele basicamente mostrará a você, por me
 
 ## Context
 
-A **MOFOG e a OBAFOG** são iniciativas educacionais ligadas ao ensino de ciência, tecnologia e física de forma prática e interativa. A OBAFOG (Mostra Brasileira de Foguetes), organizada junto da Olimpíada Brasileira de Astronomia e Astronáutica, desafia estudantes a construírem e lançarem foguetes utilizando materiais simples, **aplicando conceitos científicos na prática, como pressão, aerodinâmica, impulso e as Leis de Newton.**
+A **MOFOG e a OBAFOG** são iniciativas educacionais ligadas ao ensino de ciência, tecnologia e física de forma prática e interativa. A MOBFOG (Mostra Brasileira de Foguetes), organizada junto da Olimpíada Brasileira de Astronomia e Astronáutica, desafia estudantes a construírem e lançarem foguetes utilizando materiais simples, **aplicando conceitos científicos na prática, como pressão, aerodinâmica, impulso e as Leis de Newton.**
 
 Durante o desenvolvimento dos foguetes, os participantes precisam analisar fatores como estabilidade, alcance, velocidade e trajetória, transformando teoria em experimentação real. Além do aprendizado científico, a competição incentiva criatividade, trabalho em equipe, pensamento lógico e resolução de problemas.
 
