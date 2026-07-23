@@ -26,6 +26,7 @@ chave = 1
 counter = 0
 
 while chave > counter:
+    header()
 
     try:
         # ! Calculo do arrasto
@@ -185,6 +186,7 @@ while chave > counter:
 
         print('\n')
         loadingcalc()
+        print('\n')
 
         print(f'\033[38;5;208mTempo de voo do foguete (s) >>> {tempo:.2f} segundos.\033[0m')
         print(f'\033[38;5;208mAlcance horizontal (m) >>> {estado[0]:.2f} metros.\033[0m')

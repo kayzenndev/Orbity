@@ -55,6 +55,11 @@ try:
                 else:
                     from src import menu
 
+            elif pergunta == 5:
+                if 'src.menurk' in sys.modules:
+                    importlib.reload(menurk)
+                else:
+                    from src import menurk
 
             elif pergunta == 0:
                 mensagemend()

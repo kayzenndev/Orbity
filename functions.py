@@ -152,3 +152,15 @@ def headermenu():
 
     print(f"\033[38;5;208m{asciiart}\033[0m")
     print(options1)
+
+def headermenurk():
+    asciiart = ascii()
+
+    options1 = f"""
+\033[38;5;208m[\033[97m01\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Iniciar programa Orbity RK4.
+\033[38;5;208m[\033[97m00\033[38;5;208m]\033[0m \033[38;2;64;224;208m- Encerrar programa.
+
+"""
+
+    print(f"\033[38;5;208m{asciiart}\033[0m")
+    print(options1)
