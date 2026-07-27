@@ -1,4 +1,4 @@
-# Manual de instruções
+[!] Manual de instruções
 
 Antes de começar a utilizar o programa é importante ler esse manual de instruções para previnir futuros problemas e entender melhor como o programa funciona.
 

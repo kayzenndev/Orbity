@@ -83,7 +83,7 @@ try:
             loadinganm()
             clear_screen()
     
-except ModuleNotFoundError, ImportError:
+except ModuleNotFoundError or ImportError:
     print('')
     print('\033[38;2;255;20;147mOpa... Tem algo de errado com os módulos. Verifique a instalação correta dos requisitos ou abra um issue ná página do projeto.\033[0m')
     print('')
