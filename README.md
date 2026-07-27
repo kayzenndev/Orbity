@@ -184,9 +184,5 @@ Pesquisa de Avaliação: https://forms.gle/ySar9SAhd379FQxeA
 - Livros: Tópicos de Física, HELOU, GUALTER, NEWTON. Volume 1 e 2 : Mecânica e Termodinâmica.
 
 ---
-```                                                       
-██ ▄█▀  ▄▄▄  ▄▄ ▄▄ ▄▄▄▄▄ ▄▄▄▄▄ ▄▄  ▄▄ ▄▄  ▄▄ ▄▄▄▄  ▄▄▄▄▄ ▄▄ ▄▄ 
-████   ██▀██ ▀███▀   ▄█▀ ██▄▄  ███▄██ ███▄██ ██▀██ ██▄▄  ██▄██ 
-██ ▀█▄ ██▀██   █   ▄██▄▄ ██▄▄▄ ██ ▀██ ██ ▀██ ████▀ ██▄▄▄  ▀█▀                                         
-```
+Kayzenndev ♞
 ---
